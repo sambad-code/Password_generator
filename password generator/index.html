@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <div class="password-generator">
+        <h2>Password Generator</h2>
+<input type="text" id="password" readonly>
+<button id="copyBtn">Copy</button>
+
+<div class="select-items">
+    <div class="div1">
+  <input class="upperCase" type="checkbox"> <span>Uppercase</span>
+    </div>
+    <div class="div2">
+  <input class="lowerCase" type="checkbox"> <span>Lowercase</span> 
+    </div>
+    <div class="div3">
+  <input class="num" type="checkbox">  <span>Number</span>
+
+    </div>
+    <div class="div4">
+  <input class="sym" type="checkbox"> <span>Symbols </span>
+
+    </div>
+
+  <button class="generate">Generate</button>
+
+</div>
+        
+    </div>
+    <script src="pass_manager.js"></script>
+</body>
+</html>
